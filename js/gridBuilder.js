@@ -7,7 +7,7 @@ let map_num_rows = 30,
 var tileOptions = {
   military: {
     keep: {
-      src: "images/Military/keep/keep.4.mp.png",
+      src: "images/military/keep/keep.4.mp.png",
       height: 3
     },
     barrack: {

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LOLPlanner</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+    <aside>
+        <header>
+            <h1>LOLPlanner</h1>
+        </header>
+        <span>Assets</span>
+        <div id="assets"></div>
+        <button id="agricultural" class="btn" onClick="">Agricultural Areas</button>
+
+        <div id="treeButton"><button id="trees" class="btn" onClick="showTrees()">All Trees</button></div>
+        <button id="conifers" class="btn tree" onClick="">Conifers</button>
+        <button id="decidous" class="btn tree" onClick="">Decidous Trees</button>
+        <button id="Fruit Trees" class="btn tree" onClick="">Fruit Trees</button>
+
+        <button id="animal" class="btn" onClick="assetFill(&quot;animal&quot;)">Animal Breeding</button>
+        <button id="entertainments" class="btn" onClick="assetFill(&quot;entertainments&quot;)">Entertainments</button>
+        <button id="houses" class="btn" onClick="assetFill(&quot;house&quot;)">Houses and Dwellings</button>
+        <button id="industrial" class="btn" onClick="assetFill(&quot;industrial&quot;)">Industrial Buildings</button>
+        <button id="military" class="btn" onClick="assetFill(&quot;military&quot;)">Military Buildings</button>
+        <button id="mines" class="btn" onClick="">Mines and Quarries</button>
+        <button id="worship" class="btn" onClick="">Places of Worship</button>
+        <button id="port" class="btn" onClick="">Port</button>
+        <button id="public" class="btn" onClick="assetFill(&quot;public&quot;)">Public Buildings</button>
+        <button id="resource" class="btn" onClick="assetFill(&quot;resource&quot;)">Resource Storage</button>
+        <button id="castle" class="btn" onClick="assetFill(&quot;castle&quot;)">Seigneurial Residence</button>
+        <button id="teaching" class="btn" onClick="">Teaching Facilities</button>
+        <button id="urbanisation" class="btn" onClick="">Urbanisation</button>
+
+    </aside>
+
+    <div id="container">
+        <div id="tiles"></div>
+    </div>
+
+    <!--<small><a href="https://github.com/johnathanmiller/JS-Tile-Map-Editor">Github</a></small>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/gridBuilder.js"></script>
+    <script src="js/tools.js"></script>
+
+</body>
+</html>
